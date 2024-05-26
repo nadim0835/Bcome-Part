@@ -100,7 +100,7 @@ function App() {
           our mission & vision
           </h4>
           <h3>
-          celebrate WITH US
+          celebrate WITH US
           </h3>
           <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -115,7 +115,7 @@ function App() {
       <div className="container">
         <div className="text">
           <h3>Watch and listen</h3>
-          <h1>THE benefits of joining our church</h1>
+          <h1>THE benefits of joining our church</h1>
         </div>
         <div className="flex_card">
         <div className="card">
