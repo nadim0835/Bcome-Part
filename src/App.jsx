@@ -193,7 +193,7 @@ function App() {
            <a href="" className="btn sembtn">Learn more</a>
           </div>
           <div className="right">
-            <img src="../public/Imges/boygirl.jpg" alt="img" />
+            <img src="/Imges/boygirl.jpg" alt="img" />
           </div>
         </div>
         <div className="last">
