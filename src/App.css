@@ -113,7 +113,7 @@ nav .right:hover{
 /* nav end */
 /* banner start */
 #banner{
-  background-image: url(../public/Imges/woman.jpg);
+  background-image: url(/Imges/woman.jpg);
   background-repeat: no-repeat;
   background-size:cover;
   background-position: 0 0;
@@ -702,7 +702,7 @@ line-height: 24px; /* 150% */
 /* semons end */
 /* we star*/
 #we{
-  background-image: url(../public/Imges/Background.jpg);
+  background-image: url(/Imges/Background.jpg);
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: cover;

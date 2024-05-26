@@ -1,5 +1,6 @@
 
 import './App.css'
+import logo from '/Imges/Logo.png'
 
 function App() {
 
@@ -10,7 +11,7 @@ function App() {
       <div className="container">
         <div className="flex">
           <div className="left">
-           <img src="../public/Imges/Logo.png" alt="logo" />
+           <img src={logo} alt="logo" />
             <div className="item">
               <ul>
                 <li><a href="nav">Home</a></li>
@@ -50,17 +51,17 @@ function App() {
         </div>
         <div className="flex">
           <div className="box">
-            <img src="../public/Imges/hand.svg" alt="icon" />
+            <img src="/Imges/hand.svg" alt="icon" />
             <h2>About us</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
           <div className="box">
-            <img src="../public/Imges/Shape.svg" alt="shape" />
+            <img src="/Imges/Shape.svg" alt="shape" />
             <h2>Get involved</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
           <div className="box">
-            <img src="../public/Imges/handlove.svg" alt="" />
+            <img src="/Imges/handlove.svg" alt="" />
             <h2>Giving back</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
@@ -84,14 +85,14 @@ function App() {
         </div>
         <div className="flex">
           <div className="box">
-            <img src="../public/Imges/boyspary.png" alt="pary" />
+            <img src="/Imges/boyspary.png" alt="pary" />
           </div>
           <div className="box box2">
             
-            <img src="../public/Imges/boys gril pary.png" alt="pary" />
+            <img src="/Imges/boys gril pary.png" alt="pary" />
           </div>
           <div className="box">
-            <img src="../public/Imges/old.png" alt="pary" />
+            <img src="/Imges/old.png" alt="pary" />
           </div>
         </div>
         <div className="last">
@@ -104,7 +105,7 @@ function App() {
           <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
-          <a href="#">Read More <img src="../public/Imges/left.svg" alt="" /></a>
+          <a href="#">Read More <img src="/Imges/left.svg" alt="" /></a>
         </div>
       </div>
      </section>
@@ -118,7 +119,7 @@ function App() {
         </div>
         <div className="flex_card">
         <div className="card">
-          <img src="../public/Imges/aim.png" alt="img" />
+          <img src="/Imges/aim.png" alt="img" />
           <div className="lear">
            <h2>
            WATCH AND LISTEN TO OUR SERMONS
@@ -129,7 +130,7 @@ function App() {
           </div>
         </div>
         <div className="card">
-          <img src="../public/Imges/book.png" alt="img" />
+          <img src="/Imges/book.png" alt="img" />
           <div className="lear">
            <h2>
            WATCH AND LISTEN TO OUR SERMONS
@@ -140,7 +141,7 @@ function App() {
           </div>
         </div>
         <div className="card">
-          <img src="../public/Imges/manbook.png" alt="img" />
+          <img src="/Imges/manbook.png" alt="img" />
           <div className="lear">
            <h2>
            WATCH AND LISTEN TO OUR SERMONS
@@ -151,7 +152,7 @@ function App() {
           </div>
         </div>
         <div className="card">
-          <img src="../public/Imges/pedri.png" alt="img" />
+          <img src="/Imges/pedri.png" alt="img" />
           <div className="lear">
            <h2>
            WATCH AND LISTEN TO OUR SERMONS
@@ -182,11 +183,11 @@ function App() {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
             <div className="one">
            {/* <img src="../public/Imges/Clock icon.png" alt="clockicon" /> */}
-           <i class="fa-regular fa-clock"></i><h4>Friday 23:39 IST Saturday 11:20 ISD</h4>
+           <i className="fa-regular fa-clock"></i><h4>Friday 23:39 IST Saturday 11:20 ISD</h4>
            
            </div>
            <div className="two">
-           <i class="fa-solid fa-venus"></i>
+           <i className="fa-solid fa-venus"></i>
          <h4>No 233 Main St. New York, United States</h4>
            </div>
            <a href="" className="btn sembtn">Learn more</a>
@@ -196,7 +197,7 @@ function App() {
           </div>
         </div>
         <div className="last">
-          <a href="#">View all Sermons  <i class="fa-solid fa-arrow-right-long"></i> </a>
+          <a href="#">View all Sermons  <i className="fa-solid fa-arrow-right-long"></i> </a>
         </div>
       </div>
      </section>
@@ -216,7 +217,7 @@ function App() {
             </a>
           </div>
           <div className="right">
-            <img src="../public/Imges/Quote icon.png" alt="" />
+            <img src="/Imges/Quote icon.png" alt="" />
           </div>
         </div>
       </div>
@@ -305,7 +306,7 @@ function App() {
       <div className="container">
         <div className="flex">
           <div className="one">
-            <img src="../public/Imges/last.png" alt="" />
+            <img src="/Imges/last.png" alt="" />
             <p className='fast'>
             © Copyright Nadim 2022
             </p>
@@ -329,13 +330,13 @@ function App() {
             
             <div className="icon">
             <a href="#">
-            <i class="fa-brands fa-facebook"></i>
+            <i className="fa-brands fa-facebook"></i>
               </a>
               <a href="#">
-              <i class="fa-brands fa-twitter"></i>
+              <i className="fa-brands fa-twitter"></i>
               </a>
              <a href="#">
-             <i class="fa-brands fa-linkedin"></i>
+             <i className="fa-brands fa-linkedin"></i>
              </a>
             </div>
           </div>
